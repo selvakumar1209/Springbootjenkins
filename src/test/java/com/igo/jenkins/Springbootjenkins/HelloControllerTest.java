@@ -20,8 +20,14 @@ class HelloControllerTest {
     @Test
     void testSayHello() throws Exception {
     	
-    	System.out.println("The helloController test was 1 excecuting");
-    	System.out.println("The helloController test was 2 excecuting");
+    	System.out.println("The helloController test was Dev");
+    	System.out.println("The helloController test was Dev");
+    	System.out.println("The helloController test was Dev");
+    	System.out.println("The helloController test was Dev");
+    	System.out.println("The helloController test was Dev");
+    	System.out.println("The helloController test was Dev");
+    	System.out.println("The helloController test was Dev");
+    	System.out.println("The helloController test was Dev");
         mockMvc.perform(get("/api/hello"))
                .andExpect(status().isOk())  
                .andExpect(content().string("Hello jenkins")); 
