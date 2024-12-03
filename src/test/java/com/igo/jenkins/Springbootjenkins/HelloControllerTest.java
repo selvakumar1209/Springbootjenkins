@@ -18,7 +18,7 @@ class HelloControllerTest {
     private MockMvc mockMvc;
 
     @Test
-    testSayHello() throws Exception {
+    void testSayHello() throws Exception {
     	
     	System.out.println("The helloController test was Dev");
     	System.out.println("The helloController test was Dev");
